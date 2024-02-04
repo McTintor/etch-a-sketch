@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="options">
+        <p style="margin: 0;">Choose your canvas size below:</p>
+        <label for="slider">0<input id="slider" type="range" value="16" min="1" max="100"/>100</label>
+        <label class="gridSize"></label>
+        <button id="regular">Regular Mode</button>
+        <button id="rainbow">Rainbow Mode</button>
+        <button id="eraser">Eraser</button>
+        <button id="clear">Clear</button>
+    </div>
+
+    <div class="canvas">
+
+    </div>
+</div>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
